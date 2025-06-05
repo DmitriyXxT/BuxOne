@@ -1,0 +1,28 @@
+.clients {
+    background-color: var(--bg);
+    .clients_items {
+        padding-bottom: 100px;
+        .clients_subtitle {
+            padding-top: 100px;
+font-weight: 900;
+font-size: 24px;
+color: var(--text-gray);
+        }
+        .clients_title {
+            margin-top: 40px;
+            font-weight: 900;
+            font-size: 48px;
+            color: #333333;
+        }
+        .clietns_contant {
+            margin-top: 80px;
+        display: flex;
+        gap: 30px;
+        margin-bottom: 100px;
+        }
+        .under_btn-btns {
+            @include full_arrow-style
+          }
+        
+    } 
+}

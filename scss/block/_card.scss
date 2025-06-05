@@ -1,0 +1,65 @@
+.card {
+  background: url(/img/Rectangle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .card_items {
+
+    padding-bottom: 140px;
+    .under_btn-btns {
+      margin-top: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card_circles-btns {
+      display: flex;
+      gap: 40px;
+      .circles_btn {
+        height: 14px;
+        width: 14px;
+        border-radius: 100%;
+        border: none;
+        transition: 0.3s all;
+        background-color: gray;
+        opacity: 40%;
+        cursor: pointer;
+        &:hover {
+          background-color: #fafafa;
+        }
+        &:active {
+          background-color: #fafafa;
+          transform: scale(0.9);
+        }
+      }
+    }
+    .card_title {
+      padding-top: 170px;
+      color: #fff;
+    }
+    .card_btn {
+      margin-top: 80px;
+      @include full_btn-style;
+    }
+    .card_arrow-btns {
+      display: flex;
+      .arrow_btn {
+        border: none;
+        background-color: rgb(255, 255, 255, 0.5);
+        opacity: 40%;
+        padding: 22px 26px;
+        color: #ffffff;
+        transition: 0.3s all;
+        cursor: pointer;
+        &:hover {
+          background-color: #fafafa;
+          color: #111111;
+        }
+        &:active {
+          background-color: #fafafa;
+          transform: scale(0.9);
+        }
+      }
+    }
+  }
+}

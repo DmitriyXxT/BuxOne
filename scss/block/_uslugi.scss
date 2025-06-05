@@ -1,0 +1,49 @@
+.uslugi {
+    background-color: #EBEBEB;
+    .uslugi_items {
+        padding-bottom: 140px;
+        .uslugi_title {
+            padding-top: 140px;
+            color: #BDBDBD;
+        }
+        .uslugi_subtitle {
+            margin-top: 40px;
+            font-weight: 900;
+            font-size: 48px;
+        }
+        .uslugi_cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            
+            .item {
+                margin-top: 102px;
+                height: 350px;
+                width: 360px;
+                background-image: url(/img/Rectangle\ 2\ \(1\).png);
+                background-repeat: no-repeat;
+                background-position: center;
+                    transition: 0.3s all;
+                    background-size: cover;
+                    cursor: pointer;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                &:hover {
+                    transition: 0.3s all;
+                    transform: scale(0.95);
+                    background-image: url(/img/Rectangle\ 2\ \(2\).png);
+                }   
+                &:active {
+                    transform: scale(0.90);
+                }   
+                .items-subtitle {
+                    padding-block: 261px 45px;
+                    padding-inline: 45px 148px;
+                    font-weight: 900;
+                    font-size: 24px;
+                    color: azure;
+                }
+                
+            }
+        }
+    
+    }
+}

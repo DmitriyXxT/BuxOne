@@ -1,0 +1,90 @@
+.about {
+  .about_items {
+    padding-bottom: 140px;
+    .about_subtitle {
+      margin-top: 140px;
+      color: var(--text-gray);
+      font-size: 24px;
+    }
+    .about_contant {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 125px;
+      .about_left-side {
+        .left_title {
+          margin-top: 40px;
+          line-height: 145%;
+          font-size: 48px;
+          font-weight: 900;
+        }
+        .left_title-blue {
+          color: var(--text-blue);
+          line-height: 145%;
+          font-size: 48px;
+          font-weight: 900;
+          padding-bottom: 60px;
+        }
+        .left_subtitle {
+          font-size: 18px;
+          line-height: 138%;
+          color: #000000;
+        }
+      }
+      .about-rigth_side {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        .rigth_btn {
+          background-color: #ebebeb;
+          border: none;
+          display: flex;
+          align-items: start;
+          flex-direction: column;
+          padding-inline: 40px 108px;
+          padding-block: 30px 40px;
+          transition: 0.3s all;
+          cursor: pointer;
+          &:hover {
+            background-color: var(--blue);
+            color: #fff;
+            a {
+              color: #fff;
+              &:hover {
+                color: #000000;
+              }
+            }
+          }
+        }
+        &:active {
+          transform: scale(0.9);
+        }
+        .rigth_btn-num {
+          font-size: 55px;
+          font-weight: 900;
+          line-height: 132%;
+        }
+        .rigth_btn-text {
+          display: flex;
+          justify-content: center;
+          line-height: 132%;
+          margin-top: 30px;
+          font-size: 14px;
+          font-weight: 700;
+        }
+        .rigth_btn-text-small {
+          display: flex;
+          justify-content: center;
+          line-height: 132%;
+          font-size: 14px;
+          font-weight: 700;
+        }
+        .rigth_btn-link {
+          margin-top: 47px;
+          text-decoration: underline;
+          color: var(--text-blue);
+          transition: 0.3s all;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.thanks {
+  .thanks_items {
+    .thanks_little-title {
+      margin-top: 140px;
+      font-size: 24px;
+      font-weight: 900;
+      color: var(--text-gray);
+    }
+    .thanks_title {
+      margin-top: 40px;
+      font-size: 48px;
+      font-weight: 900;
+      color: #333333;
+    }
+    .thanks_coment {
+      margin-top: 80px;
+      background-color: var(--bg);
+      padding: 45px 95px;
+      .coment_text {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 138%;
+        color: #000000;
+      }
+      .coment_user {
+        margin-top: 58px;
+        display: flex;
+        align-items: center;
+        gap: 35px;
+        .user_text {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          .user_name {
+            font-weight: 900;
+            font-size: 18px;
+          }
+          .user_who {
+            color: #4F4F4F;
+            font-weight: 400;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .under_btn-btns {
+        margin-top: 100px;
+        @include full_arrow-style;
+        padding-bottom: 140px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+:root {
+    --text-blue: #005FA3; 
+    --lato: "Lato", sans-serif; 
+    --blue: #005FA3;
+    --text-gray: #BDBDBD;
+    --bg: #EBEBEB;
+}
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 48px;
+    .item-subtitle {
+        padding-top: 261px;
+    }
+  }
