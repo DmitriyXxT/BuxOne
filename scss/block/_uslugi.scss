@@ -19,7 +19,7 @@
                 margin-top: 102px;
                 height: 350px;
                 width: 360px;
-                background-image: url(img/Rectangle\ 2\ \(1\).png);
+                background-image: url(./img/Rectangle\ 2\ \(1\).png);
                 background-repeat: no-repeat;
                 background-position: center;
                     transition: 0.3s all;
@@ -29,7 +29,7 @@
                 &:hover {
                     transition: 0.3s all;
                     transform: scale(0.95);
-                    background-image: url(img/Rectangle\ 2\ \(2\).png);
+                    background-image: url(./img/Rectangle\ 2\ \(2\).png);
                 }   
                 &:active {
                     transform: scale(0.90);
